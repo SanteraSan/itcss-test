@@ -1,0 +1,6 @@
+@mixin btn_construct ($w,$h,$bgc,$pt,$pr,$pb,$pl) {
+    width: $w;
+    height: $h;
+    background-color: $bgc;
+    padding: $pt $pr $pb $pl;
+}

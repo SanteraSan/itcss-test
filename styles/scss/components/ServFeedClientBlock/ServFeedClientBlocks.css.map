@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AAQA,AAAA,WAAW,CAAC;EKPR,WAAW,EFDC,WAAW,EAAE,KAAK,EAAE,UAAU;EEE1C,SAAS,ELO2B,IAAI;EKNxC,UAAU,ELM+B,IAAI;EAC7C,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,gBAAgB,ECXF,OAAO;ECArB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CF0BtB;;AArBD,AAMI,WANO,CAMP,sBAAsB,CAAC;EACnB,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EEVnB,OAAO,EAAG,IAAI;EACd,eAAe,EFUO,aAAa;EETnC,WAAW,EFS0B,QAAQ;CAUhD;;AApBL,AAWQ,WAXG,CAMP,sBAAsB,CAKlB,aAAa,CAAC;EElBlB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EEDnB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG;CJwBN;;AAnBT,AAaY,WAbD,CAMP,sBAAsB,CAKlB,aAAa,CAET,SAAS,CAAC;EIflB,KAAK,EJgBmC,IAAI;EIf5C,MAAM,EJewC,IAAI;EIdlD,gBAAgB,EJcoC,IAAI;CAC/C;;AAfb,AAgBY,WAhBD,CAMP,sBAAsB,CAKlB,aAAa,CAKT,WAAW,CAAC;EIlBpB,KAAK,EJmBmC,KAAK;EIlB7C,MAAM,EJkByC,GAAG;EIjBlD,gBAAgB,EJiBoC,IAAI;CAC/C",
+    "sources": [
+        "ServFeedClientBlocks.scss",
+        "../../settings/color.scss",
+        "../../tools/displays.scss",
+        "../../settings/font.scss",
+        "../../tools/tools.ServFeedClientBlocks.scss",
+        "../../tools/tools.createFont.scss"
+    ],
+    "names": [],
+    "file": "ServFeedClientBlocks.css"
+}

@@ -1,0 +1,64 @@
+@import "../../settings/color.scss";
+@import "../../tools/displays.scss";
+@import "../../tools/tools.btnConstructor.scss";
+@import "../../tools/tools.bgi_creater.scss";
+.ourService__slider__blocks {
+    position: relative;
+    width: 100%;
+    height: 556px;
+    background-color: $primary_grey;
+    @include flex_center();
+    .ourService__nextPrev__btn {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        @include flex_center();
+        .slider__btn {
+            width: 32px;
+            height: 32px;
+            background-color: $btn_slider;
+        }       
+        .prevBtn {
+            @include bgi_creater("https://img.icons8.com/ios/50/000000/less-than.png", center, 38px);
+        }
+        .nextBtn {
+            @include bgi_creater("https://img.icons8.com/ios/50/000000/more-than.png", center, 38px);
+            margin-left: 1px;
+        }
+    }
+    .slider__block {
+        height: 100%;
+        width: 333px;
+        @include flex_center();
+        text-align: center;
+        .slider__block__content {
+            @include flex_center();
+            flex-direction: column;
+            max-width: 299px;
+            font-size: 14px;
+            line-height: 1.29;
+            .span {
+                font-size: 24px;
+                line-height: 1.08;
+                font-weight: 550;
+                padding-top: 55px;
+                padding-bottom: 20px;
+            }
+            .btn {
+                @include flex_center();
+                margin-top: 29px;
+                font-size: 12px;
+                width: 140px;
+                height: 28px;
+                border-radius: 2px;
+                background-color: $btn_grey;
+            }
+        }
+    }
+    .slider__block:hover {
+        background-color: $primary-hover;
+    }
+    .block2 {
+        width: 334px;
+    }
+}

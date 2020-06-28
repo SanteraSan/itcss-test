@@ -1,0 +1,10 @@
+@mixin forHorLine {
+    @include flex_center;
+    width: 305px;
+    height: 3px;
+}
+@mixin forSmallBigHorLine($w, $h, $bgc) {
+    width: $w;
+    height: $h;
+    background-color: $bgc;
+}

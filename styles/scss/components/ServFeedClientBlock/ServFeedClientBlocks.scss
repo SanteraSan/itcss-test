@@ -1,0 +1,30 @@
+@import '../../settings/color.scss';
+@import '../../tools/displays.scss';
+@import '../..//settings/font.scss';
+@import '../../tools/tools.ServFeedClientBlocks.scss';
+@import '../../tools/tools.createFont.scss';
+
+
+
+.block__357 {
+    @include font_creater($font-primary,40px,left);
+    width: 100%;
+    height: 139px;
+    background-color: $primary_darkGrey;
+    @include flex_center();
+    .block__357__container {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        @include flex_creater(space-between, flex-end);
+        .horizontLine {
+            @include forHorLine();
+            .innerBig {
+                @include forSmallBigHorLine(72px, 100%, #fff);
+            }
+            .innerSmall {
+                @include forSmallBigHorLine(233px, 1px, #fff);
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.ourService__slider__blocks {
+  position: relative;
+  width: 100%;
+  height: 556px;
+  background-color: #3d3d3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ourService__slider__blocks .ourService__nextPrev__btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ourService__slider__blocks .ourService__nextPrev__btn .slider__btn {
+  width: 32px;
+  height: 32px;
+  background-color: #089eac;
+}
+
+.ourService__slider__blocks .ourService__nextPrev__btn .prevBtn {
+  background-image: url("https://img.icons8.com/ios/50/000000/less-than.png");
+  background-position: center;
+  background-size: 38px;
+}
+
+.ourService__slider__blocks .ourService__nextPrev__btn .nextBtn {
+  background-image: url("https://img.icons8.com/ios/50/000000/more-than.png");
+  background-position: center;
+  background-size: 38px;
+  margin-left: 1px;
+}
+
+.ourService__slider__blocks .slider__block {
+  height: 100%;
+  width: 333px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.ourService__slider__blocks .slider__block .slider__block__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 299px;
+  font-size: 14px;
+  line-height: 1.29;
+}
+
+.ourService__slider__blocks .slider__block .slider__block__content .span {
+  font-size: 24px;
+  line-height: 1.08;
+  font-weight: 550;
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+.ourService__slider__blocks .slider__block .slider__block__content .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 29px;
+  font-size: 12px;
+  width: 140px;
+  height: 28px;
+  border-radius: 2px;
+  background-color: #959595;
+}
+
+.ourService__slider__blocks .slider__block:hover {
+  background-color: #097e89;
+}
+
+.ourService__slider__blocks .block2 {
+  width: 334px;
+}
+/*# sourceMappingURL=components.threeElemSlider.css.map */
