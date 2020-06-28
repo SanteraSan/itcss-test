@@ -56,6 +56,7 @@
         }
     }
     .slider__block:hover {
+        transition: 0.2s;
         background-color: $primary-hover;
     }
     .block2 {

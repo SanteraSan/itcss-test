@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Sansation',Arial, Helvetica, sans-serif;
+}
+
 .block__357 {
   font-family: "Sansation", Areal, sans-serif;
   font-size: 40px;
@@ -168,6 +176,8 @@
 }
 
 .ourService__slider__blocks .slider__block:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   background-color: #097e89;
 }
 
@@ -175,12 +185,71 @@
   width: 334px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Sansation',Arial, Helvetica, sans-serif;
+.header__container {
+  width: 100%;
+  height: 552px;
+  background-image: url("../../../../img/ap-ui123.png");
+  background-position: center;
+  background-size: "";
+}
+
+.header__container .main__header {
+  height: 60px;
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__container .main__header .header__logo {
+  font-size: 24px;
+}
+
+.header__container .main__header .header__logo .header__logo__GO {
+  color: #da2346;
+}
+
+.header__container .main__header .header__hrefs {
+  width: 637px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__container .main__header .header__hrefs .header__href:hover {
+  color: #097e89;
+}
+
+.header__container .main__header .header__hrefs .header__href {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.header__container .main__header .header__socNet {
+  width: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 40px;
 }
 
 .o-container {
@@ -189,7 +258,15 @@
   margin: 0 auto;
 }
 
-div {
+body {
+  font-family: Sansation;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
   color: #f7f7f7;
 }
 
