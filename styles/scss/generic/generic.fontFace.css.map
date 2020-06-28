@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,UAAU;EACN,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,qDAAqD,CAAC,kBAAkB",
-    "sources": [
-        "generic.fontFace.scss"
-    ],
-    "names": [],
-    "file": "generic.fontFace.css"
-}

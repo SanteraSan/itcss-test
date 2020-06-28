@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,GAAG,CAAA;EACC,KAAK,EAAE,OAAO;CACjB;;AACD,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,cAAc,EAAE,SAAS;CAC5B",
-    "sources": [
-        "elemenys.scss"
-    ],
-    "names": [],
-    "file": "elemenys.css"
-}

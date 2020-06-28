@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "tools.createFont.scss"
-    ],
-    "names": [],
-    "file": "tools.createFont.css"
-}
